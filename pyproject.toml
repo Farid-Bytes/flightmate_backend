@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "flightmate"
+version = "0.1.0"
+description = ""
+authors = ["farid <ghulamfarid932973@gmail.com>"]
+readme = "README.md"
+package-mode = false  # ✅ Add this line
+
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = ">=0.115.13,<0.116.0"
+uvicorn = ">=0.34.3,<0.35.0"
+python-dotenv = ">=1.1.0,<2.0.0"
+openai = ">=1.88.0,<2.0.0"
+httpx = ">=0.28.1,<0.29.0"
+google-generativeai = "^0.8.5"
+transformers = "^4.52.4"
+torch = "^2.7.1"
+groq = "^0.28.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
